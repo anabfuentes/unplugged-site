@@ -89,12 +89,63 @@ textarea {
 
 
 /************************** Global Styles *******************************/
+/* General Styles */
+
+html {
+  font-size: 1rem;
+
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #e2e3ed;
+
+}
 
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
   border: 3px dotted magenta;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 2.6875rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+}
+
+h3,
+h4 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: .875rem;
+  line-height: 1.125rem;
+}
+
+address {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+}
+
+
 
 /********************** Base Header - Footer Styles *********************/
 
@@ -125,6 +176,8 @@ header .content-wrapper {
 
 header nav {
   width: 60%;
+  font-size: 1.125rem;
+  font-weight: bold;
 
 }
 
@@ -132,6 +185,13 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  list-style: none;
+}
+
+header nav ul a {
+  color: #e2e3ed;
+  text-decoration: none;
+
 }
 
 
@@ -185,6 +245,7 @@ footer .copyright {
 	justify-content:center;
 }
 
+
 /*Aside*/
 
 aside {
@@ -192,6 +253,7 @@ aside {
 	justify-content:center;
 
 }
+
 
 .form-description p {
   margin-bottom: 30px;
@@ -371,6 +433,11 @@ aside {
 
 .faq-content {
   margin-bottom: 50px;
+
+}
+
+.faq-content h4 {
+  line-height: 1.5rem;
 
 }
 
