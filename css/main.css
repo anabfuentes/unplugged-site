@@ -426,7 +426,6 @@ input[type=button] {
 }
 
 
-
 /* Contact */
 
 .contact-section {
@@ -454,8 +453,8 @@ input[type=button] {
 .faq .content-wrapper {
   display: flex;
 	justify-content: center;
+  align-items: flex-start;
   flex-flow: row wrap;
-  align-items: center;
   margin: 50px 0 0 0;
 
 }
@@ -748,6 +747,14 @@ footer .copyright {
   width: 45%;
 }
 
+/* Map */
+
+.map {
+
+  padding-bottom: 58.3%;
+
+}
+
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
@@ -767,10 +774,12 @@ footer .copyright {
 
 .faq .content-wrapper {
   justify-content: space-between;
+
 }
 
 .faq-content {
   flex-basis: 45%;
+
 }
 
 .faq h2 {
@@ -787,7 +796,7 @@ footer .copyright {
 
 }
 
-
+/**************************************** Desktop ********************************************/
 
 @media only screen and (min-width: 1200px) {
 /*General Styles*/
@@ -886,6 +895,13 @@ footer h4 {
 .contact-content h4 {
   font-size: 1.875em;
   
+}
+
+/* Map */
+
+.map {
+  padding-bottom: 75%;
+
 }
 
 /* ================================= FAQ ================================================*/
