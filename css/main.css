@@ -191,7 +191,7 @@ header .content-wrapper {
 }
 
 header figure {
-  width:60%
+  width:60%;
 
 }
 
@@ -410,9 +410,9 @@ input[type=button] {
 /* Mission */
 
 .mission {
+  background-color: #527158;
   display:flex;
 	justify-content:center;
-  background-color: #527158;
 
 }
 
@@ -617,6 +617,7 @@ input[type=button] {
 
   header figure {
     width: 30%;
+    padding-right: 305px;
 
   }
 
@@ -777,12 +778,13 @@ footer .copyright {
 
 .mission-content p {
   width: 45%;
+
 }
 
 /* Map */
 
 .map {
-  padding-bottom: 58%;
+  padding-bottom: 45.5%;
 
 }
 
@@ -842,6 +844,11 @@ footer .copyright {
 
 header {
   padding: 15px 0;
+
+}
+
+header figure {
+  padding-right: 435px;
 
 }
 
@@ -919,7 +926,7 @@ footer h4 {
 /* Map */
 
 .map {
-  padding-bottom: 75%;
+  padding-bottom: 37.5%;
 
 }
 
